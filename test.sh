@@ -52,7 +52,7 @@ if ./a.out &> /dev/null ; then
 
 else
 
-  gcc -g test.c >&3
+  gcc -g $testcode >&3
   gdb -ex 'run' -ex q ./a.out >&3
 
 fi
