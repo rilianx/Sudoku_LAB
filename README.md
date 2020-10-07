@@ -91,7 +91,7 @@ El siguiente código se puede usar para recorrer los elementos de una sumbatriz 
         if(p%3 == 2) printf("\n");
     }
 
-La salida del código con el estado de la figura es:
+La salida del código con el estado de la figura es (submatriz del centro):
     
     0 6 0
     8 0 3
@@ -104,14 +104,14 @@ La salida del código con el estado de la figura es:
 
 4.Implemente la función **int is_final(Node * n)**. Esta función retorna 1 si el nodo corresponde a un nodo final (es decir, todos los valores de la matriz son distintos a 0) y 0 en caso contrario.
 
-Ya está listo el grafo implícito, ahora necesitamos construir un método de búsqueda que a partir del estado inicial sea capaz de explorar esta grafo de manera sistemática hasta alcanzar un nodo final.
+Ya está listo el grafo implícito, ahora necesitamos construir un método de búsqueda que a partir del estado inicial sea capaz de explorar el grafo de manera sistemática hasta alcanzar un nodo final.
 
 Implementando una búsqueda en profundidad
 --
 
 Antes de continuar se sugiere que haya visto y **entendido** la segunda parte de la presentación sobre [grafos](https://docs.google.com/presentation/d/1Mqo51pc6knDje153O2eqYiS_tN8Nv6qDz4czjHp493s/edit#slide=id.g1df2841e01_0_77) (recuerde investigar o preguntar si no entiende bien algo).
 
-5.Implemente la función **Node * DFS(Node * n, int* cont)**. Esta función realiza una búsqueda en profundidad a partir del nodo n. El algoritmo es el siguiente:
+5.Implemente la función Node* DFS(Node* n, int* cont). Esta función realiza una búsqueda en profundidad a partir del nodo n. El algoritmo es el siguiente:
 
 1. Cree un stack S (pila) e inserte el nodo.
 2. Mientras el stack S no se encuentre vacío:
@@ -128,7 +128,7 @@ Almacene en la variable cont, la cantidad de iteraciones que realiza el algoritm
 > - Recuerde revisar las operaciones del TDA Stack en el archivo *list.h*.
 
 Acaba de implementar un método para resolver sudokus!
-Puede probarlo usando el siguiente main (descoméntelo de *sudoku.c*):
+Puede probarlo usando el siguiente código (descomente el main en *sudoku.c*):
 
     int main( int argc, char *argv[] ){
 
@@ -142,4 +142,4 @@ Puede probarlo usando el siguiente main (descoméntelo de *sudoku.c*):
        return 0;
     }
 
-**Recuerde volver a comentar el main para subir su nota al servidor**
+**Recuerde volver a comentar el main para subir su nota al servidor.**
