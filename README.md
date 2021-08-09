@@ -10,10 +10,12 @@ Resolviendo el sudoku con grafos
 * Puede revisar el archivo *test.c* para entender los errores de su código
 * Para testear sus códigos debe hacer click en Run▸
 * No está permitido usar comandos de git (a menos que el profesor lo indique)
-* Si al intentar subir los cambios al servidor aperece **exit status 1**, intente hacer lo siguiente en la consola (derecha):
+* Para evitar escribir su login y contraseña github cada vez que desea subir los cambios, puede escribir en la consola el siguiente comando: 
+````
+git remote set-url origin https://{login}:{pass}@github.com/{repo}
+````
+Reemplace `{login}` y `{pass}` por su login y contraseña de usuario github. `{repo}` es el nombre del repositorio github asociado a su código, debería hacer algo como: `OptativoPUCV/2021_2-lab6-iaraya` 
 
-      git pull
-    Luego, si se abre un editor de texto escriba ":q" (dos puntos, luego 'q'). Intente subir los cambios nuevamente.
 ---
 
 En este laboratorio intentarán resolver un tablero de [sudoku](https://www.sudoku-online.org/) usando un grafo implícito y un algoritmo de búsqueda.
@@ -141,5 +143,8 @@ Puede probarlo usando el siguiente código (descomente el main en *sudoku.c*):
 
        return 0;
     }
+
+Compile: `gcc sudoku -o sudoku`
+y ejecute: `./sudoku`
 
 **Recuerde volver a comentar el main para subir su nota al servidor.**
