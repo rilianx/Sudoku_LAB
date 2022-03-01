@@ -9,8 +9,8 @@ Resolviendo el sudoku con grafos
 * En el explorador ponga la opción para clonar repositorio y clone **este repositorio**
 * Sólo puede modificar el archivo *sudoku.c*
 * Para testear sus códigos debe abrir un terminal *git bash* y ejecutar el comando `./test.sh`
+* Verifique que sus cambios se hayan subido al repositorio en github
 * No está permitido usar comandos de git (a menos que el profesor lo indique)
-
 ---
 
 En este laboratorio intentarán resolver un tablero de [sudoku](https://www.sudoku-online.org/) usando un grafo implícito y un algoritmo de búsqueda.
