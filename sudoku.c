@@ -24,7 +24,8 @@ Node* read_file (char* file_name){
   int i,j;
   for(i=0;i<9;i++){
        for(j=0;j<9;j++){
-          fscanf (file, "%d", &n->sudo[i][j]);
+          if(!fscanf (file, "%d", &n->sudo[i][j]))
+            printf("failed to read data!");
        }
   }
 
