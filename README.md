@@ -3,15 +3,18 @@ Resolviendo el sudoku con grafos
 =====
 
 ---
-**Antes de comenzar**
+**ANTES DE COMENZAR**
 
-* Abra el Visual Studio Code y abra una nueva ventana
-* En el explorador ponga la opción para clonar repositorio y clone **este repositorio**
-* Sólo puede modificar el archivo *sudoku.c*
-* Para testear sus códigos debe abrir un terminal *git bash* y ejecutar el comando `./test.sh`
-* Verifique que sus cambios se hayan subido al repositorio en github
+* Abra su cuenta en repl.it
+* En el home de repl.it busque el lab y clónelo para comenzar a trabajar
+* Seleccione el lenguaje (C) y escriba el comando para el botón run: `bash test.sh`
+* Sólo puede modificar los archivos *sudoku.c*
+* Para testear sus códigos basta con que apriete el botón **Run**
+* Actualice seguido sus cambios, debe ingresar su contraseña de github y [token](https://drive.google.com/file/d/1s3PyI_HCn0HAx5dm7h0jRiC-G9Cq2p-g/view?usp=sharing)
 * No está permitido usar comandos de git (a menos que el profesor lo indique)
+
 ---
+
 
 En este laboratorio intentarán resolver un tablero de [sudoku](https://www.sudoku-online.org/) usando un grafo implícito y un algoritmo de búsqueda.
 
