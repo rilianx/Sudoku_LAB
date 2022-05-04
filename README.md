@@ -115,11 +115,17 @@ Antes de continuar se sugiere que haya visto y **entendido** la segunda parte de
 
 1. Cree un stack S (pila) e inserte el nodo.
 2. Mientras el stack S no se encuentre vacío:
+
    a) Saque y elimine el primer nodo de S.
+   
    b) Verifique si corresponde a un estado final, si es así retorne el nodo.
+   
    c) Obtenga la lista de nodos adyacentes al nodo.
+   
    d) Agregue los nodos de la lista (uno por uno) al stack S.
+   
    e) Libere la memoria usada por el nodo.
+   
 3. Si terminó de recorre el grafo sin encontrar una solución, retorne NULL.
 
 Almacene en la variable cont, la cantidad de iteraciones que realiza el algoritmo.
