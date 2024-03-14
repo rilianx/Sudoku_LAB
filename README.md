@@ -3,16 +3,14 @@ Resolviendo el sudoku con grafos
 =====
 
 ---
-**ANTES DE COMENZAR**
+**Antes de comenzar**
 
-* Abra su cuenta en repl.it
-* En el home de repl.it busque el lab y clónelo para comenzar a trabajar
-* Seleccione el lenguaje (C) y escriba el comando para el botón run: `bash test.sh`
-* Sólo puede modificar los archivos *sudoku.c*
+* Importe el repositorio desde su cuenta en repl.it (si no tiene siga [este tutorial](https://chartreuse-goal-d5c.notion.site/C-mo-comenzar-con-los-labs-b4dd8c7abc5a425d8f25e2eaa060e5b5?pvs=4))
+* Sólo puede modificar el archivo *sudoku.c*
 * Para testear sus códigos basta con que apriete el botón **Run**
-* Actualice seguido sus cambios, debe ingresar su contraseña de github y [token](https://drive.google.com/file/d/1s3PyI_HCn0HAx5dm7h0jRiC-G9Cq2p-g/view?usp=sharing)
-* No está permitido usar comandos de git (a menos que el profesor lo indique)
-
+* Si no funciona el botón **Run** puede abrir un terminal (shell) y ejecutar el comando `./test.sh`
+* Verifique que sus cambios se hayan subido a este repositorio
+* **No está permitido usar comandos de git** (a menos que el profesor o ayudantes lo indiquen)
 ---
 
 
