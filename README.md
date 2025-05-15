@@ -145,7 +145,7 @@ Puede probarlo usando el siguiente código (descomente el main en *sudoku.c*):
        return 0;
     }
 
-Compile: `gcc sudoku -o sudoku`
+Compile: `gcc sudoku.c -o sudoku`
 y ejecute: `./sudoku`
 
 **Recuerde volver a comentar el main para subir su nota al servidor.**
